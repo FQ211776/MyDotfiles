@@ -5,10 +5,13 @@
 **Example** :
 
 ```powershell
-# install scoop
+# install neovim and tools needed
 scoop install neovim
 scoop install gcc
 scoop install mingw
+
+scoop install goneovim
+scoop install neovim-qt
 ```
 
 
