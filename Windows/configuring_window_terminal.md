@@ -22,7 +22,7 @@ scoop bucket add nerd-fonts
 scoop install JetBrainsMono-NF-Mono
 scoop install JetBrainsMono-NF
 scoop install Meslo-NF-Mono.json
-Meslo-NF-Mono.json
+scoop install Meslo-NF.json
 
 # install sudo to elevate privileges when needed
 scoop install sudo
