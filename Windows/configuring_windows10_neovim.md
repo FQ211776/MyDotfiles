@@ -1,6 +1,6 @@
 # My Ultimate PowerShell prompt with starship and the Windows Terminal
 
-**Description :**   Deleting the .git folder may cause problems in your git repository. If you want to delete all your commit history but keep the code in its current state, it is very safe to do it as in the following:
+**Description :**
 
 **Example** :
 
