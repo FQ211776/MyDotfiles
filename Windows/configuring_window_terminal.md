@@ -49,7 +49,6 @@ git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 # Install Fzf - Fuzzy finder
 scoop install fzf
 Install-Module -Name PSFzf -Scope CurrentUser -Force
-Install-Module -Name PSFzf -Scope CurrentUser -Force
 
 
 #  Install z - Directory jumper
