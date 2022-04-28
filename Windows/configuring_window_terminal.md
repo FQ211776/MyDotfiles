@@ -5,24 +5,11 @@
 **Example** :
 
 ```powershell
-# Check current branches to replace
-git branch
+iwr -useb get.scoop.sh | iex
+git config --global credential.helper manager-core
+scoop install sudo
+scoop install windows-terminal
 
-# a new branch without history keeping current states of old files in main<master> branch
-# This will create a new branch with one commit that adds everything in HEAD. It doesn't alter anything else, so it's completely safe
-git branch new_branch_name $(echo "commit message" | git commit-tree HEAD^{tree})
-
-# Checkout
-git checkout new_branch_name
-
-# Delete old branches
-git branch -D master
-
-# Rename the current branch to master or the name you prefer
-git branch -m dominus
-
-# Finally, force update your repository
-git push -f origin dominus
 ```
 
 
