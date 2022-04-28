@@ -15,8 +15,10 @@ scoop install goneovim
 scoop install neovim-qt
 
 
-git clone https://github.com/wbthomason/packer.nvim $env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+git clone https://github.com/wbthomason/packer.nvim $env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim
 git clone https://github.com/NvChad/NvChad nvim --depth 1
+#Copy the nvim dir to ~/AppData/Local/
+
 ```
 
 
