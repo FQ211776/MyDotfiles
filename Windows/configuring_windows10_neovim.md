@@ -10,9 +10,10 @@ scoop install neovim
 scoop install gcc
 scoop install mingw
 
-# Neovim GUI
+# Neovim GUI <optional>
 scoop install goneovim
 scoop install neovim-qt
+scoop install fvim
 
 # install NVChad
 git clone https://github.com/wbthomason/packer.nvim $env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim
@@ -21,8 +22,9 @@ git clone https://github.com/NvChad/NvChad nvim --depth 1
 #Copy the nvim dir to ~/AppData/Local/ and then
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 
-# install fvim
-scoop install fvim
+# install VIFM
+scoop install vifm
+
 
 
 ```
