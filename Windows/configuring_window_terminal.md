@@ -40,4 +40,11 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 ![](20220427230323.png)
 
 
-https://github.com/JanDeDobbeleer/oh-my-posh.git
+
+
+
+cd ~\AppData\Local
+git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
+
+
+
