@@ -35,15 +35,18 @@ install-Module posh-git  -Scope CurrentUser -Force
 cd ~\AppData\Local
 git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 
-# terminal finder
+# Install Fzf - Fuzzy finder
 scoop install fzf
 Install-Module -Name PSFzf -Scope CurrentUser -ForceInstall-Module -Name PSFzf -Scope CurrentUser -Force
+
+
+#  Install z - Directory jumper
 sudo Install-Module -Name z -Force -AllowClobber
 
 # Terminal Icons
 sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 
-# PSReadLine
+# Install PSReadLine - Autocompletion
 Install-Module -Name PowerShellGet -Force
 sudo Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force  -SkipPublisherCheck
 Set-PSReadLineOption -PredictionSource History
@@ -57,9 +60,11 @@ Set-PSReadLineOption -PredictionViewStyle listView
 ![](20220427225907.png)
 ![](20220428000303.png)
 
-
+**utility command - `ctrl + r`**
 ![](20220427230323.png)
+**utility command - `ctrl + b`**
 ![](20220427230249.png)
+ **utility command - `which`**
 ![](20220427230219.png)
 
 
