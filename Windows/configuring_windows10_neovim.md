@@ -1,4 +1,4 @@
-# My Ultimate PowerShell prompt with starship and the Windows Terminal
+# Neovim in Windows 10
 
 **Description :**
 
@@ -9,9 +9,8 @@
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb get.scoop.sh | iex
 
-# optional buckets
 scoop bucket add extras
-scoop bucket add java
+
 
 # install git
 scoop install git
