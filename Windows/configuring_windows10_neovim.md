@@ -10,6 +10,7 @@ scoop install neovim
 scoop install gcc
 scoop install mingw
 
+# Neovim GUI 
 scoop install goneovim
 scoop install neovim-qt
 ```
