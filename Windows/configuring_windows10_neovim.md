@@ -25,6 +25,11 @@ nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 # install VIFM
 scoop install vifm
 
+# remember to copy this folders in order to get favicom icons in vifm
+# .config
+# .vifm
+# favicons.vifm
+
 
 
 ```
