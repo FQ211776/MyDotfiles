@@ -39,7 +39,7 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 ![](20220427230249.png)
 ![](20220427230323.png)
 
-
+![](20220428000303.png)  
 
 
 
@@ -49,5 +49,5 @@ git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 ![](20220427233007.png)
 ![](20220427233644.png)
 ![](20220427234220.png)
-![](20220427234632.png)  
+![](20220427234632.png)
 
