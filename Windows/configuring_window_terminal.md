@@ -20,6 +20,9 @@ scoop install sudo
 scoop install windows-terminal
 scoop install extras/vcredist2022
 
+# install latest version of Powershell
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
 # install starship as a default prompt
 scoop install starship
 
@@ -28,28 +31,23 @@ scoop install nuget
 scoop install winget
 winget install oh-my-posh
 install-Module posh-git  -Scope CurrentUser -Force
+# install-Module oh-my-posh -Scope CurrentUser -Force
+cd ~\AppData\Local
+git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 
-# install latest version of Powershell
-iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
-
-
-
+# terminal finder
 scoop install fzf
-
-
-install-Module oh-my-posh -Scope CurrentUser -Force
-sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+Install-Module -Name PSFzf -Scope CurrentUser -ForceInstall-Module -Name PSFzf -Scope CurrentUser -Force
 sudo Install-Module -Name z -Force -AllowClobber
+
+# Terminal Icons
+sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+
+# PSReadLine
 Install-Module -Name PowerShellGet -Force
 sudo Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force  -SkipPublisherCheck
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle listView
-Install-Module -Name PSFzf -Scope CurrentUser -Force
-
-
-cd ~\AppData\Local
-git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
-
 ```
 
 
