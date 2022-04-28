@@ -48,5 +48,6 @@ git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 
 ![](20220427233007.png)
 ![](20220427233644.png)
-![](20220427234220.png)  
+![](20220427234220.png)
+![](20220427234632.png)  
 
