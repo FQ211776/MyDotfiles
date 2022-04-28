@@ -5,17 +5,35 @@
 **Example** :
 
 ```powershell
+# install scoop
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb get.scoop.sh | iex
+
+# install git
+scoop install git
 git config --global credential.helper manager-core
+
+# install sudo to elevate privileges when needed
 scoop install sudo
+
+# install windows terminal
 scoop install windows-terminal
 scoop install extras/vcredist2022
+
+# install starship as a default prompt
 scoop install starship
-scoop install fzf
+
+# install oh-my-posh as a alternative prompt
 scoop install nuget
 scoop install winget
-iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+winget install oh-my-posh
 install-Module posh-git  -Scope CurrentUser -Force
+
+
+
+scoop install fzf
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
 install-Module oh-my-posh -Scope CurrentUser -Force
 sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 sudo Install-Module -Name z -Force -AllowClobber
@@ -24,7 +42,7 @@ sudo Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force 
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle listView
 Install-Module -Name PSFzf -Scope CurrentUser -Force
-winget install oh-my-posh
+
 
 cd ~\AppData\Local
 git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
