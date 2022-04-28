@@ -8,6 +8,7 @@
 # install scoop
 scoop install neovim
 scoop install gcc
+scoop install mingw
 ```
 
 
