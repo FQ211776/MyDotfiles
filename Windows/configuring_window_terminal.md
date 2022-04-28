@@ -51,11 +51,7 @@ Set-PSReadLineOption -PredictionViewStyle listView
 ```
 
 
-**this will not keep your old commit history around**
-
-
-**[based on a mix of answers in stackoverflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)**
-
+**Now lets change some settings**
 
 ![](20220427225824.png)
 ![](20220427225907.png)
