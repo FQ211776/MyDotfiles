@@ -29,10 +29,13 @@ scoop install winget
 winget install oh-my-posh
 install-Module posh-git  -Scope CurrentUser -Force
 
+# install latest version of Powershell
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
 
 
 scoop install fzf
-iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
 
 install-Module oh-my-posh -Scope CurrentUser -Force
 sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
