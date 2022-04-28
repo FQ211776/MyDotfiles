@@ -9,6 +9,8 @@ iwr -useb get.scoop.sh | iex
 git config --global credential.helper manager-core
 scoop install sudo
 scoop install windows-terminal
+scoop install extras/vcredist2022
+scoop install starship
 
 ```
 
