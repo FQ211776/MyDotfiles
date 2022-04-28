@@ -7,6 +7,7 @@
 ```powershell
 # install scoop
 scoop install neovim
+scoop install gcc
 ```
 
 
