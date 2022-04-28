@@ -13,6 +13,7 @@ scoop install extras/vcredist2022
 scoop install starship
 scoop install fzf
 scoop install nuget
+scoop install winget
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 install-Module posh-git  -Scope CurrentUser -Force
 install-Module oh-my-posh -Scope CurrentUser -Force
@@ -23,6 +24,10 @@ sudo Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force 
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle listView
 Install-Module -Name PSFzf -Scope CurrentUser -Force
+winget install oh-my-posh
+
+cd ~\AppData\Local
+git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
 
 ```
 
@@ -43,8 +48,7 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 
 
 
-cd ~\AppData\Local
-git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
+
 
 ![](20220427233007.png)
 ![](20220427233644.png)
