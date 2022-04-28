@@ -55,21 +55,26 @@ Set-PSReadLineOption -PredictionViewStyle listView
 
 ![](20220427225824.png)
 ![](20220427225907.png)
-![](20220427230323.png)
-![](20220427230249.png)
-![](20220427230219.png)
 ![](20220428000303.png)
 
 
+![](20220427230323.png)
+![](20220427230249.png)
+![](20220427230219.png)
 
 
 
+
+
+**showcase**
 ![](20220427233007.png)
 ![](20220427233644.png)
 ![](20220427234220.png)
 ![](20220427234632.png)
 
 
+**how to set a theme**
+```powershell
 set-PoshPrompt M365Princess
 set-PoshPrompt agnoster
 set-PoshPrompt agnosterplus
@@ -166,5 +171,5 @@ set-PoshPrompt wopian
 set-PoshPrompt xtoys
 set-PoshPrompt ys
 set-PoshPrompt zash
-
+```
 
