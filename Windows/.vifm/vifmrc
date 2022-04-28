@@ -2,3 +2,4 @@ set vicmd=nvim
 source C:\Users\DDD\.config\vifm\favicons.vifm
 source ~/favicons.vifm
 source ~\favicons.vifm
+colorscheme ph
