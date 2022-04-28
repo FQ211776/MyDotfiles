@@ -13,6 +13,16 @@ scoop install extras/vcredist2022
 scoop install starship
 scoop install fzf
 scoop install nuget
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+install-Module posh-git  -Scope CurrentUser -Force
+install-Module oh-my-posh -Scope CurrentUser -Force
+sudo Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+sudo Install-Module -Name z -Force -AllowClobber
+Install-Module -Name PowerShellGet -Force
+sudo Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force  -SkipPublisherCheck
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle listView
+Install-Module -Name PSFzf -Scope CurrentUser -Force
 
 ```
 
