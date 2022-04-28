@@ -9,9 +9,18 @@
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb get.scoop.sh | iex
 
+# optional buckets
+scoop bucket add extras
+scoop bucket add java
+
 # install git
 scoop install git
 git config --global credential.helper manager-core
+
+# install Nerd Fonts
+scoop bucket add nerd-fonts
+scoop install JetBrainsMono-NF-Mono
+scoop install JetBrainsMono-NF
 
 # install sudo to elevate privileges when needed
 scoop install sudo
