@@ -11,6 +11,7 @@ scoop install sudo
 scoop install windows-terminal
 scoop install extras/vcredist2022
 scoop install starship
+scoop install fzf
 
 ```
 
