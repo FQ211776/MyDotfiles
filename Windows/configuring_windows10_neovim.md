@@ -32,15 +32,6 @@ scoop install vifm
 ```
 
 
-**Now lets change some settings**
-
-![](20220428112801.png)  
-![](20220428112543.png)
-
-
-
-
-
 **showcase**
-
-
+![](20220428112801.png)
+![](20220428112543.png)
