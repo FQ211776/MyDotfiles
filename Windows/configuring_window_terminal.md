@@ -37,4 +37,7 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 ![](20220427225907.png)
 ![](20220427230219.png)
 ![](20220427230249.png)
-![](20220427230323.png)  
+![](20220427230323.png)
+
+
+https://github.com/JanDeDobbeleer/oh-my-posh.git
