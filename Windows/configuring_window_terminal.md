@@ -33,3 +33,5 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 **[based on a mix of answers in stackoverflow](https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)**
 
 
+![](20220427225824.png)
+![](20220427225907.png)  
